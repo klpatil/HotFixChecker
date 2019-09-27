@@ -21,8 +21,8 @@ HFC allows you to compare installed hotfixes with should be installed hotfixes.
 ## How to Download and Install?
 
 1. If you would like to do it manually you can download file (HFC.aspx) from here
-2. Copy it under your <WEBROOT>\<Yourfolder> folder.
-3. Access your page using https://<YOURHOSTNAME>/<Yourfolder>/hfc.aspx
+2. Copy it under your #WEBROOT#\#YOURFOLDER# folder.
+3. Access your page using https://#WEBROOT#/#YOURFOLDER#/hfc.aspx
 4. That's it! Enjoy! :-)
 
 >Found any bug? Got suggestion/feedback/comment, Share it here!
