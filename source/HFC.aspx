@@ -32,7 +32,7 @@ Version : 1.0.--%>
             if (!IsPostBack)
             {
                 hotFixData = GetHotFixData();
-                ShowHotFixList(hotFixData);                
+                ShowHotFixList(hotFixData);
             }
         }
         catch (Exception ex)
@@ -55,7 +55,7 @@ Version : 1.0.--%>
         hotFixCheckerInfo.SitecoreVersion = ReadXMLData("SITECOREVERSION");
         hotFixCheckerInfo.InstalledHotfixes = new List<string>();
         var hotFixFromAssemblies = GetInstalledHotFixes(hotFixCheckerInfo.InstalledHotfixes);
-        
+
         // Identify Sitecore Version from Kernel assembly
         // Recommended list
         hotFixCheckerInfo.RecommendedHotfixes = new List<HotFixInfo>();
@@ -65,7 +65,7 @@ Version : 1.0.--%>
         LoadRecommendedHotfixFeed(hotFixCheckerInfo, compareWithMyCurrentVersionOnly);
         return hotFixCheckerInfo;
     }
-    
+
 
     private List<string> GetInstalledHotFixes(List<string> installedHotfixes)
     {
@@ -348,8 +348,7 @@ Version : 1.0.--%>
         {
             // https://www.sitecoregabe.com/2018/11/which-version-of-sitecore-is-this-again.html
             // https://sitecore.stackexchange.com/questions/4358/can-you-identify-the-sitecore-version-from-the-sitecore-kernel-dll-version
-
-
+            
             return (sitecoreVersionMapping.ContainsKey(yourSitecoreVersion)) ? sitecoreVersionMapping[yourSitecoreVersion] : "0";
         }
 
@@ -457,7 +456,7 @@ Version : 1.0.--%>
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse"
                                     data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
-                                    aria-controls="collapseTwo">Just a note :  (Click here to expand/collapse)
+                                    aria-controls="collapseTwo">Notes :  (Click here to expand/collapse)
                                 </a>
                             </h4>
                         </div>
@@ -470,6 +469,9 @@ Version : 1.0.--%>
                             </li>
                             <li><a href="https://github.com/SitecoreSupport/Important-Information" target="_blank">https://github.com/SitecoreSupport/Important-Information</a>
 
+                            </li>
+                            <li>
+                                HFC will check current application only. If you've XP Scaled, then you need to run HFC on each role.
                             </li>
                         </ul>
                             </div>
