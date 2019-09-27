@@ -7,7 +7,7 @@ HFC allows you to compare installed hotfixes with should be installed hotfixes.
 
 ## Main Features
 
-1. HFC lists all installed Sitecore recommended hotfixes form your current application.
+1. HFC lists all installed Sitecore recommended hotfixes from your current application.
 2. If you have XP Scaled environment then you need to run this tool on each role.
 3. It also identifies your Sitecore version.
 4. It fetches latest list of recommended hotfixes provided by Sitecore from their Github Repo : https://github.com/SitecoreSupport using  https://www.sitecorehotfixversionselector.com/ (Thanks to https://twitter.com/bramstoopcom and https://twitter.com/MariaBorhem for simplifying this check)
