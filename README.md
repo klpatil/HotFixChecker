@@ -1,5 +1,5 @@
 # Hotfix Checker (HFC)
----
+
 HFC allows you to compare installed hotfixes with should be installed hotfixes.
 
 ![Hotfix Checker (HFC)](https://sitecorebasics.files.wordpress.com/2019/09/hfcv1.0.gif "Hotfix Checker (HFC)")
