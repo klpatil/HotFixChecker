@@ -26,3 +26,4 @@ HFC allows you to compare installed hotfixes with should be installed hotfixes.
 4. That's it! Enjoy! :-)
 
 >Found any bug? Got suggestion/feedback/comment, Share it here!
+
